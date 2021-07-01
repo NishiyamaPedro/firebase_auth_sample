@@ -11,7 +11,6 @@ class _SignUpFormState extends State<SignUp> {
   final GlobalKey<FormState> _formKey = GlobalKey<FormState>();
   final TextEditingController _emailController = TextEditingController();
   final TextEditingController _passwordController = TextEditingController();
-  bool? _success;
 
   @override
   void dispose() {
